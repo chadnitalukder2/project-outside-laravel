@@ -7,6 +7,12 @@
     "autoload": {
         "files": [
             "config/database.php"
-        ]
+        ],
+        "classmap":[
+            "app/Models"
+        ],
+        "App\\": "app/"
+           
+        
     }
 }
